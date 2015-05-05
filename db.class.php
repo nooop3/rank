@@ -1,6 +1,6 @@
 <?php
 	
-	$con = mysql_connect('localhost', 'root', 'asdf');
+	$con = mysql_connect('HOST', 'USR', 'PASSWD');
 	if(!$con){
 
 		die('link db failed!');
