@@ -9,9 +9,9 @@
 
 	$Rank_data = new Wechat_Rank();
 	//日排行榜网址
-	//$Rank_data->url = "http://www.gsdata.cn/index.php/rank/ranks?gid=16282&date=&page=1";
+	//$Rank_data->url = "__URL__";
 	//周排行榜网址
-	$Rank_data->url = "http://search.gsdata.cn/index.php/rank/ranks?gid=16282&date=20150502_20150426&page=1&type=month";
+	$Rank_data->url = "__URL__";
 	$result = $Rank_data->get_rank();
 
 	$data_time = $result->data->date;
