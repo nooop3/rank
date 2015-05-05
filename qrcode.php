@@ -13,7 +13,7 @@
 	$Wechat = new Wechat_Rank();
 
 	$Wechat->cookie = "cookie.txt";
-	$Wechat->url = "http://www.gsdata.cn/index.php/rank/ranks?gid=16282&date=&page=1";
+	$Wechat->url = "__URL__";
 	$output =$Wechat->get_rank();
 
 	//var_dump($output);
